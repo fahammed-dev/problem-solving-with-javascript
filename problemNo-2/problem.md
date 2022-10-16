@@ -12,3 +12,6 @@ For numbers which are multiple of 3 and 5 both, the array should have “FizzBuz
 Example: <br>
 A = 5 <br>
 Return: [1 2 Fizz 4 Buzz]
+
+---
+🌐[Interviewbit Link](https://www.interviewbit.com/problems/fizzbuzz/)
