@@ -1,34 +1,20 @@
-const arr = [1, 6, 8, 0, 999, 7, 90, 20, 111, 888, 40];
+const str = 'the   sky    is blue';
 
-// const findMin = (arr) => {
-//   let min = 0;
-//   for(let i = 0; i < arr.length; i++){
-//     for(let j = i + 1; j > arr.length; j++) {
-//       if(arr[i] > arr[j]) {
-//         min = arr[j];
-//       }else if(arr[i] < arr[j]) {
-//         min = arr[j];
-//       }
-//     }
-//   }
-//   console.log(min)
-// }
+function reverseStr(A) {
+    let array = A.split(' ');
+    let newArray = [];
 
-// findMin(arr);
+    for (let i = array.length - 1; i >= 0; i--) {
+        newArray.push(array[i]);
+    }
 
-// const findMin = (arr) => {
-//     let min = arr[0];
-//     for (let i = 0; i < arr.length; i++) {
-//         if (arr[i] < min) {
-//             min = arr[i];
-//         }
-//     }
-//     console.log(min);
-// };
+    let string = newArray.toString();
 
-const findMin = (arr) => {
-    let min = arr[0];
-    
+    for (let i = 0; i < newArray.length; i++) {
+        string = string.replace(',', ' ');
+    }
+
+    return string.replace(/  +/g,' '); // RegExp
 }
 
-findMin(arr);
+console.log(reverseStr(str));
