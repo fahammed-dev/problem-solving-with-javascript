@@ -10,4 +10,4 @@ steps = 8 path = [DDUUUUDD]<br>
 The hiker first enters a valley 2 units deep. Then they climb out and up onto a mountain 2 units high. Finally, the hiker returns to sea level and ends the hike.
 
 ---
-🌐[HackerRank Link]([Counting-Valleys](https://www.hackerrank.com/challenges/counting-valleys/problem))
+🌐[HackerRank Link](https://www.hackerrank.com/challenges/counting-valleys/problem)
