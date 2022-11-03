@@ -1,15 +1,16 @@
-const numbers = [44, 99, 6, 2, 1, 5, 63, 87, 283, 4, 0];
+const arr = [1, 3, 5, 7, 9];
 
-function countingSort(arr) {
-    const length = arr.length;
-    for (let i = 0; i < length; i++) {
-        for (let j = i + 1; j < length; j++) {
-            if (arr[i] > arr[j]) {
-                let temp = arr[i];
-                arr[i] = arr[j];
-                arr[j] = temp;
-            }
-        }
+function miniMaxSum(arr) {
+    arr.sort()
+    let minSum = 0;
+    let maxSum = 0;
+    for (let i=1; i< arr.length; i++){
+        maxSum += arr[i]
     }
-    return arr;
+    for (let i=0; i< arr.length -1; i++){
+        minSum += arr[i]
+    }
+    return `${minSum} ${maxSum}`  
 }
+
+console.log(miniMaxSum(arr));
