@@ -8,4 +8,4 @@ A = [1, 2, 3]<br>
 Return [3, 2, 1].
 
 ---
-🌐[HackerRank Link]([Arrays-DS](https://www.hackerrank.com/challenges/arrays-ds/problem))
+🌐[HackerRank Link](https://www.hackerrank.com/challenges/arrays-ds/problem)
